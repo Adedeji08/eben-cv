@@ -1,0 +1,211 @@
+@media screen and (min-width: 961px){
+.text-animate-hover{
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+}
+.text-animate-hover :hover{
+animation: rubberband 3s;
+color: #ffd700
+}
+.home-page {
+    display: flex;
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-60%);
+      width: 40%;
+      max-height: 90%;
+      
+    }
+    .image-circle {
+      display: none;
+    }
+  
+    h1 {
+      color: #4E5B31;
+      font-size: 38px;
+      line-height: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+      animation: moveInLeft 6s ease-out;
+      transition: display 1s ease-in;
+  
+     /*  &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
+  
+      &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: none;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      } */
+  
+      img {
+        margin-left: 90px;
+        opacity: 0;
+        width: 100px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
+        animation: moveInLeft 6s ease-out;
+        transition: display 1s ease-in;
+      }
+    }
+  
+    h2 {
+      color: #4E5B31;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+      animation: moveInLeft 6s ease-out;
+      transition: display 1s ease-in;
+    }
+  
+    .flat-button {
+      color: #ffd700;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 10px 18px;
+      border: 1px solid #ffd700;
+      margin-top: 25px;
+      float: left;
+      animation: fadeInAnimation 1s 1.8s backwards;
+      white-space: nowrap;
+  
+      &:hover {
+        background: #ffd700;
+        color: #333;
+      }
+    }
+  }
+  @keyframes moveInLeft{
+    0% {
+      opacity: 0;
+      transform: translateX(100px)
+    }
+    80%{
+      transform: translateX(-10px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0)
+    }
+  }
+}
+
+
+  @media screen and (max-width: 960px){
+    .home-page {
+      background: #F3F5FB;
+      .image-circle{
+        width: 70%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: 27px;
+     }
+   .circle {
+     border: 0px;
+     border-radius: 100%;
+     opacity: 0;
+     height: auto;
+     width: 100%;
+     animation: rotateIn 1s linear both;
+     animation-delay: 1.4s;
+    /* animation: moveInLeft 6s ease-out;*/
+     transition: display 1s ease-in;
+   }
+      .text-zone {
+        position: absolute;
+        left: 24%;
+        top: 90%;
+        transform: translateY(-60%);
+        width: 70%;
+  
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      h1 {
+        text-align: center;
+        color: #4E5B31;
+        font-size: 25px;
+        line-height: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        animation: moveInLeft 6s ease-out;
+        transition: display 1s ease-in;
+       
+      }
+    
+      h2 {
+        color: #4E5B31;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+        animation: moveInLeft 6s ease-out;
+        transition: display 1s ease-in;
+      }
+    
+      .flat-button {
+        color: #ffd700;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        float: left;
+        animation: fadeInAnimation 1s 1.8s backwards;
+        white-space: nowrap;
+    
+        &:hover {
+          background: #ffd700;
+          color: #333;
+        }
+      }
+      @keyframes moveInLeft{
+        0% {
+          opacity: 0;
+          transform: translateX(100px)
+        }
+        80%{
+          transform: translateX(-10px);
+        }
+        100%{
+          opacity: 1;
+          transform: translateX(0)
+        }
+      }
+    }
+  }
+  
+  
+  
