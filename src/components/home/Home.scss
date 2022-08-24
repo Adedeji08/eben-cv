@@ -62,7 +62,7 @@ color: #ffd700
         width: 100px;
         height: auto;
         animation: rotateIn 1s linear both;
-        animation-delay: 1.4s;
+        animation-delay: 1s;
         animation: moveInLeft 6s ease-out;
         transition: display 1s ease-in;
       }
@@ -121,32 +121,29 @@ color: #ffd700
       background: #F3F5FB;
       .image-circle{
         width: 70%;
-        height: 50%;
+        height: 60%;
         margin-left: auto;
-        margin-right: 27px;
      }
    .circle {
      border: 0px;
      border-radius: 100%;
      opacity: 0;
-     height: auto;
-     width: 100%;
+     height: 60%;
+     width: 80%;
      animation: rotateIn 1s linear both;
      animation-delay: 1.4s;
-    /* animation: moveInLeft 6s ease-out;*/
      transition: display 1s ease-in;
    }
       .text-zone {
         position: absolute;
         left: 24%;
-        top: 90%;
+        top: 95%;
         transform: translateY(-60%);
         width: 70%;
-  
         margin-left: auto;
         margin-right: auto;
       }
-    
+
       h1 {
         text-align: center;
         color: #4E5B31;
@@ -157,7 +154,6 @@ color: #ffd700
         font-weight: 400;
         animation: moveInLeft 6s ease-out;
         transition: display 1s ease-in;
-       
       }
     
       h2 {

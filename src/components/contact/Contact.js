@@ -47,28 +47,7 @@ export const Contact = () => {
     });
 
     };
-  
-    /*   const sendEmail = (e) => {
-      e.preventDefault()
-  
-      emailjs
-        .sendForm(
-            'Gmail',
-           'template_2yzx1u4',
-          e.target,
-          '8LdIQzTIF_nj5NP0p'
-        )
-        .then(
-          () => {
-            alert('Message successfully sent!')
-            window.location.reload(false)
-          },
-          () => {
-            alert('Failed to send the message, please try again')
-          }
-        )
-    }
- */
+
     return (
         <>
       <div className="container contact-page">
@@ -143,6 +122,7 @@ export const Contact = () => {
           </MapContainer>
         </div>
       </div>
+      <p className='copies'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p>
       <Loader type="pacman" />
     </>
     )

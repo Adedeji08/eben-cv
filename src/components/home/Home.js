@@ -2,20 +2,21 @@
     * @description      : 
     * @author           : 
     * @group            : 
-    * @created          : 27/06/2022 - 17:55:10
+    * @created          : 27/07/2022 - 15:07:45
     * 
     * MODIFICATION LOG
     * - Version         : 1.0.0
-    * - Date            : 27/06/2022
+    * - Date            : 27/07/2022
     * - Author          : 
     * - Modification    : 
 **/
+
 import {useState, useEffect} from 'react'
 import './Home.scss'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../animatedLetters/AnimatedLetters'
-import LogoTitle from '../../assets/images/dammy.png'
+import LogoTitle from '../../assets/images/image4.jpg'
 import { Logo } from './logo/Logo'
 
 
@@ -81,7 +82,7 @@ export const Home = () => {
         </div>
        <Logo />
       </div>
-
+      <p className='copies'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p>
       <Loader type="pacman" />
     </>
   )

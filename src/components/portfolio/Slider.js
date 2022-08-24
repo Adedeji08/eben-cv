@@ -14,32 +14,27 @@ import React from 'react'
 import { Fade } from 'react-slideshow-image';
 import './Slider.scss'
 import 'react-slideshow-image/dist/styles.css'
-import imgg from "../../assets/images/random.jpg"
-import imgg1 from "../../assets/images/eben.jpg"
-import imgg2 from "../../assets/images/mine.jpeg"
+import imgg from "../../assets/images/image1.jpg"
+import imgg1 from "../../assets/images/image2.jpg"
+import imgg2 from "../../assets/images/image3.jpeg"
   
    
 
     const fadeImages = [
         {
             url: imgg,
-            caption: 'My Portfolio',
+            caption: 'Dynamic',
             caption1: 'Igniting the passion'
         },
         {
             url: imgg1,
-            caption: 'My Portfolio',
+            caption: 'Versatile',
             caption1: 'Engaging with new ideas'
         },
         {
             url: imgg2,
-            caption: 'My Portfolio',
-            caption1: 'Building the impossible'
-        },
-        {
-            url: imgg,
-            caption: 'My Portfolio',
-            caption1: 'Rejuvinating the world of Tech'
+            caption: 'Team Work',
+            caption1: 'Building the impossible',
         },
     ] ;
 
@@ -52,11 +47,13 @@ export const Slider = () => {
           {fadeImages.map((fadeImage, index) => (
             <div className="each-fade" key={index}>
               <div className="image-container">
-                <img src={fadeImage.url} alt="show" />
+                <img className='imgggg' src={fadeImage.url} alt="show" />
               </div>
-              <h2>{fadeImage.caption}</h2>
-              <h2>{fadeImage.caption1}</h2>
-            </div>
+             <div className='phase0'>
+             <h1 className='phase1'>{fadeImage.caption}</h1>
+               <h2 className='phase2'>{fadeImage.caption1}</h2>
+             </div>
+              </div>
           ))}
         </Fade>
       </div>

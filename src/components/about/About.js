@@ -37,7 +37,7 @@ export const About = () => {
    <>
     <div className="container about-page">
         <div className="text-zone">
-          <h1>
+          <h1 className='about_me'>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
@@ -86,6 +86,7 @@ export const About = () => {
           </div>
         </div>
       </div>
+      <p className='copies'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p>
       <Loader type="pacman" />
    </>
   )
