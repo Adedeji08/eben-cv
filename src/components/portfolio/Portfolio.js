@@ -83,11 +83,14 @@ export const Portfolio = () => {
 
                 <div>
                 <h2 className='h-text'>Curriculum Vitae</h2> 
+                <div className='diva' style={{width: '35%', marginRight: 'auto', marginLeft: 'auto'}}>
                 <a href={CV} download={CV}> <button className='btn' type='submit' download={CV} >Download</button></a>
+                </div>
                 </div>
 
                 <div>
                 <h2 className='h-text'>Github</h2> 
+                
                         <a
                     href="https://github.com/Adedeji08"
                     target="_blank"

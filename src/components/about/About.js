@@ -86,7 +86,7 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <p className='copies'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p>
+      <p className='copy1'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p>
       <Loader type="pacman" />
    </>
   )

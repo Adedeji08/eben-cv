@@ -7,7 +7,6 @@
     height: 100%;
 }
 .phase0{
-  background-color: pink;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
@@ -24,15 +23,15 @@
 }
 @media screen and (max-width: 960px){
     .slide-container{
-       margin-left: 4.9%;
+       margin-left: .9%;
        
     }
     .imgggg{
         height: 100%;
         width: 100%;
+        margin-left: 60px;
     }
     .phase0{
-      background-color: pink;
       width: 40%;
       margin-left: auto;
       margin-right: auto;
@@ -44,6 +43,6 @@
     }
     .phase2{
         text-align: center;
-        color: #4E5B31;
+        color: #fff;
     }
     }
