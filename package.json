@@ -17,6 +17,7 @@
     "hero-slider": "^2.0.3",
     "leaflet": "^1.8.0",
     "loaders.css": "^0.1.2",
+    "mime": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.0.1",
