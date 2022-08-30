@@ -20,8 +20,6 @@ import { Contact } from './components/contact/Contact';
 import { Portfolio } from './components/portfolio/Portfolio';
 
 function App() {
-  // const path = require('path')
-  // app.use(express.static(path.join(__dirname, './public')));
   return (
    <Routes>
      <Route path="/" element={<Layout/>}>
