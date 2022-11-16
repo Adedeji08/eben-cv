@@ -101,7 +101,7 @@ export const Portfolio = () => {
                 </a>
                 </div>
             </section>
-            <p className='copy'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p>
+            {/* <p className='copy'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p> */}
    </main>
    <Loader type="pacman" />
    </>

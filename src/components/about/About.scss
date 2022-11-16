@@ -83,10 +83,9 @@
 
   @media screen and (max-width: 960px){
     .stage-cube-cont {
-       
         width: 78%;
-        height: 30%;
-        margin-top: -40%;
+        height: 80%;
+        // margin-top: -40%;
         margin-left: auto;
         margin-right: auto;
         position: absolute;
@@ -165,6 +164,14 @@
         83% {
           transform: rotateX(90deg);
         }
-      }}
+      }
+
+    }
     
-      
+    .copy3{
+      margin-top: 618px;
+      text-align: center;
+      font-family: 'BR Firma';
+      font-weight: 400;
+      font-size: 10px;
+  }
