@@ -80,7 +80,7 @@ export const Home = () => {
             CONTACT ME
           </Link>
         </div>
-       <Logo />
+        <Logo />
       </div>
       <p className='copy1'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p>
       <Loader type="pacman" />
