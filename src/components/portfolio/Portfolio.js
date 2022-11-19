@@ -23,6 +23,7 @@ export const Portfolio = () => {
    
    <main className='portfolio'>
             <Slider/>
+            <div className='portClass'>
                 <div className='port-picture'>
                     <h1>My Portfolio</h1>
                 </div>
@@ -102,6 +103,7 @@ export const Portfolio = () => {
                 </div>
             </section>
             {/* <p className='copy'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p> */}
+            </div>
    </main>
    <Loader type="pacman" />
    </>

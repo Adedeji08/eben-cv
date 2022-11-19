@@ -1,14 +1,17 @@
 html {
   font-size: 62.5%;
 }
-
+@media screen and (min-width: 961px){
 body {
+  background-image: url(./assets/images/PRD.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', sans-serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #F3F5FB;
+  /* background: #F3F5FB; */
   /*#FCB415 #F3F5FB */
   display: block;
 }
@@ -16,4 +19,24 @@ body {
 .dashboard {
   margin-top: 200px;
   margin-left: 200px;
+}}
+
+@media screen and (max-width: 960px){
+body {
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F3F5FB; 
+   /* #FCB415 #F3F5FB */
+  display: block;
 }
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}}

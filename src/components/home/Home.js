@@ -75,12 +75,12 @@ export const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / React JavaScript Expert</h2>
+          <h2>Front End Developer / React / Angular Developer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        {/* <Logo /> */}
       </div>
       <p className='copy1'>Copyright ©2022 All rights reserved | adedeji08.vercel.app</p>
       <Loader type="pacman" />

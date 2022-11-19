@@ -14,7 +14,7 @@ import React from 'react'
 import { Fade } from 'react-slideshow-image';
 import './Slider.scss'
 import 'react-slideshow-image/dist/styles.css'
-import imgg from "../../assets/images/image1.jpg"
+import imgg from "../../assets/images/PRD1.jpg"
 import imgg1 from "../../assets/images/image2.jpg"
 import imgg2 from "../../assets/images/image3.jpeg"
   

@@ -59,7 +59,7 @@ export const About = () => {
           <p>
             If I need to define myself in one sentence that would be an hardworking
             person, a football lover,
-            graphics creative enthusiast, and tech-obsessed!!!
+            graphic creative enthusiast, and tech-obsessed!!!
           </p>
         </div>
 
