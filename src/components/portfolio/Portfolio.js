@@ -14,7 +14,7 @@ import React from 'react'
 import './Portfolio.scss'
 import { Slider } from './Slider';
 import Loader from 'react-loaders';
-import CV from "../../assets/images/my-Resume.pdf"
+import CV from "../../assets/images/myResume.pdf"
  import {NavLink} from 'react-router-dom'
 
 export const Portfolio = () => {
@@ -44,25 +44,25 @@ export const Portfolio = () => {
                         <div className='sider'> 
                         <a href="https://github.com/Adedeji08/sallyk-fashion_affairs" className='linko'  target="_blank"   rel="noreferrer">
                             <h1 className='side-text'>E-commerce App</h1>
-                            <p className='side-text2'>An e-commerce app where you can shop for<br/> fashion items. This is still building to ease the tension of<br/> clients going manually to purchase <br/>goods </p>
+                            <p className='side-text2'>An e-commerce app where you can shop for<br/> fashion items. This project is still in progress and it is <br/> aimed at enabling clients shop online<br/> instead of doing same physically</p>
                             </a>
                         </div>
                         <div className='sider'>
                         <a href="https://github.com/Adedeji08/ip-address-tracker-master" className='linko'  target="_blank"   rel="noreferrer">
                             <h1  className='side-text'>IP Address Tracker</h1>
-                            <p  className='side-text2'>This app is to track Ip Address<br/> of public and private organization </p>
+                            <p  className='side-text2'>This app is to track Ip Address<br/> of public and private organisations </p>
                             </a>
                         </div>
                         <div className='sider'>
                         <a href="https://github.com/Adedeji08/rest-countries-api-with-color-theme-switcher-master-main" className='linko'  target="_blank"   rel="noreferrer">
                             <h1  className='side-text'>Country Search</h1>
-                            <p className='side-text2'>This app is to search for <br/> and find all the details about<br/>the selected country<br/>Also with theme feature</p>
+                            <p className='side-text2'>This App is built to search<br/> and provide details about<br/>the selected country<br/>It also with theme feature</p>
                             </a>
                         </div>
                         <div className='sider'>
-                        <a href="https://github.com/Adedeji08/navbar" className='linko'  target="_blank"   rel="noreferrer">
-                            <h1  className='side-text'>Navigation</h1>
-                            <p className='side-text2'>This is a app built to navigate<br/> through pages with dynamic images </p>
+                        <a href="https://github.com/Adedeji08/notification-page-main" className='linko'  target="_blank"   rel="noreferrer">
+                            <h1  className='side-text'>Notification Box</h1>
+                            <p className='side-text2'>This is a app built to identify<br/> read and unread messages </p>
                             </a>
                         </div>
             </div> 

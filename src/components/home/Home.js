@@ -28,6 +28,8 @@ export const Home = () => {
       
         const nameArray = ['D', 'A', 'M', 'I', 'L', 'O', 'L', 'A','', 'A', 'D', 'E','D', 'E', 'J', 'I']
        const jobArray = [
+            'A',
+            '',
             'w',
             'e',
             'b',
