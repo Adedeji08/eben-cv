@@ -120,6 +120,7 @@
           margin-top: -250px;
         .contact-form {
           width: 100%;
+          margin: 12px;
         
           ul {
             padding: 0;
@@ -272,6 +273,7 @@
   
   .leaflet-container {
     position: absolute;
+    margin: 12px;
     width: 70%;
     height: 50%;
     opacity: 0;
