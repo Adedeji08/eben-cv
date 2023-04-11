@@ -87,6 +87,12 @@ export const About = () => {
         </div>
       </div>
       {/* <p className='copy3'>Copyright ©2022 All rights reserved | damilolaadedeji.netlify.app</p> */}
+      {/*   // "eslintConfig": {
+  //   "extends": [
+  //     "react-app",
+  //     "react-app/jest"
+  //   ]
+  // }, */}
       <Loader type="pacman" />
    </>
   )

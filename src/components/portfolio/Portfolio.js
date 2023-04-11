@@ -42,25 +42,25 @@ export const Portfolio = () => {
                             </a>
                         </div>
                         <div className='sider'> 
-                        <a href="https://github.com/Adedeji08/sallyk-fashion_affairs" className='linko'  target="_blank"   rel="noreferrer">
-                            <h1 className='side-text'>E-commerce App</h1>
-                            <p className='side-text2'>An e-commerce app where you can shop for<br/> fashion items. This project is still in progress and it is <br/> aimed at enabling clients shop online<br/> instead of doing same physically</p>
+                        <a href="https://business-update.vercel.app" className='linko'  target="_blank"   rel="noreferrer">
+                            <h1 className='side-text'>Business App</h1>
+                            <p className='side-text2'>An App built to check business updates with a chart flow.<br/> To know the number of customers and <br/> to confirming recent orders</p>
                             </a>
                         </div>
                         <div className='sider'>
-                        <a href="https://github.com/Adedeji08/ip-address-tracker-master" className='linko'  target="_blank"   rel="noreferrer">
-                            <h1  className='side-text'>IP Address Tracker</h1>
-                            <p  className='side-text2'>This app is to track Ip Address<br/> of public and private organisations </p>
+                        <a href="https://github.com/Adedeji08/TiKTik__App" className='linko'  target="_blank"   rel="noreferrer">
+                            <h1  className='side-text'>TIKTIK</h1>
+                            <p  className='side-text2'>A site buit with Sanity<br/> to export and post videos lesser than 2GB </p>
                             </a>
                         </div>
                         <div className='sider'>
-                        <a href="https://github.com/Adedeji08/rest-countries-api-with-color-theme-switcher-master-main" className='linko'  target="_blank"   rel="noreferrer">
+                        <a href="https://flagcountries.netlify.app" className='linko'  target="_blank"   rel="noreferrer">
                             <h1  className='side-text'>Country Search</h1>
                             <p className='side-text2'>This App is built to search<br/> and provide details about<br/>the selected country<br/>It also with theme feature</p>
                             </a>
                         </div>
                         <div className='sider'>
-                        <a href="https://github.com/Adedeji08/notification-page-main" className='linko'  target="_blank"   rel="noreferrer">
+                        <a href="https://notification-page-main.vercel.app" className='linko'  target="_blank"   rel="noreferrer">
                             <h1  className='side-text'>Notification Box</h1>
                             <p className='side-text2'>This is a app built to identify<br/> read and unread messages </p>
                             </a>
